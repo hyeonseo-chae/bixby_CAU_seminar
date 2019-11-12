@@ -1,0 +1,16 @@
+capsule {
+  id (cau_sh.cau_haksik)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-ko-KR)
+  }
+
+  runtime-flags {
+    concepts-inherit-super-type-features
+    modern-prompt-rejection
+    support-halt-effect-in-computed-inputs
+    no-filtering-with-validation
+    modern-default-view-behavior
+  }
+}

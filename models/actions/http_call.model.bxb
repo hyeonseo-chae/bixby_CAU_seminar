@@ -1,0 +1,8 @@
+action (http_call) {
+  description (__DESCRIPTION__)
+  collect {
+    
+  }
+  type (Constructor)
+  output (Result_haksik)
+}

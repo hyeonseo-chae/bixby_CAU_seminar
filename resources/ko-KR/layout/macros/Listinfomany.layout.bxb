@@ -1,0 +1,21 @@
+layout-macro-def (Listinfomany) {
+  params {
+    param (info) {
+      type (Result_haksik)
+      min (Required) max (Many)
+    }
+  }
+  content {
+    paragraph("날짜 : #{value(info.list.date)}"){
+              style(Detail_L_Soft)
+            }
+    paragraph("#{value(info.list.rest)}"){
+              style(Title_M)
+            }
+    paragraph("* #{value(info.list.course)}\n* 이용 시간 : #{value(info.list.time)}\n* 가격 : #{value(info.list.price)}\n* 메뉴 : [#{value(info.list.menuDetail)}]\nㅤ"){
+              style(Detail_M_Soft)
+            }        
+
+  }
+  
+}

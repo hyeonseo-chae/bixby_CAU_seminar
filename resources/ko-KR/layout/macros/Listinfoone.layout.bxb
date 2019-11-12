@@ -1,0 +1,36 @@
+layout-macro-def (Listinfoone) {
+  
+  params {
+    param (info) {
+      type (Result_haksik)
+      min (Required) max (One)
+    }
+  }
+  content {
+    section{
+      title{
+        template ("학식 정보")
+      }
+      
+      content{
+        paragraph("날짜 : #{value(info.list.date)}"){
+              style(Detail_L_Soft)
+            }
+        for-each(info.list){ 
+          as (subinfo){           
+            paragraph("#{value(subinfo.rest)}"){
+              style(Title_M)
+            }
+    paragraph("* #{value(subinfo.course)}  \n*  이용 시간 : #{value(subinfo.time)}  \n*  가격 : #{value(subinfo.price)}\n* 메뉴 : [#{value(subinfo.menuDetail)}]\n ㅤ"){
+              style(Detail_M_Soft)
+            }        
+   
+            }           
+          }
+        }
+      
+      }
+    
+    }
+
+}

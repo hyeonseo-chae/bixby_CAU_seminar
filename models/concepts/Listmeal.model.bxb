@@ -1,0 +1,48 @@
+structure (Listmeal) {
+  description (__DESCRIPTION__)
+  property(rest){
+    type(Rest)
+    min(Optional) max(One)
+  }
+  property(camp){
+    type(Camp)
+    min(Optional) max(One)
+  }
+  property(storeDiv){
+    type(StoreDiv)
+    min(Optional) max(One)
+  }
+  property(date){
+    type(Date)
+    min(Optional) max(One)
+  }
+  property(course){
+    type(Course)
+    min(Optional) max(One)
+  }
+  property(time){
+    type(Time)
+    min(Optional) max(One)
+  }
+  property(price){
+    type(Price)
+    min(Optional) max(One)
+  }
+  property(menuDetail){
+    type(MenuDetail)
+    min(Optional) max(One)
+  }
+  property(picPath){
+    type(PicPath)
+    min(Optional) max(One)
+  }
+  property(menuscd){
+    type(Menuscd)
+    min(Optional) max(One)
+  }
+  property(mCd){
+    type(MCd)
+    min(Optional) max(One)
+  }
+   
+}

@@ -1,0 +1,37 @@
+result-view {
+
+  match: Result_haksik (this)
+
+  message {
+
+        template ("학식 정보를 가져와 보았어요. 아래에서 정보를 확인해 보세요.")
+  }
+
+  render {
+   
+      if(size(this) == 1){
+      layout{
+        layout-macro (Listinfoone){
+          param(info){
+            expression (this)
+          }
+        }
+        
+        
+      }
+   
+    }else{
+      list-of (this){
+        where-each (item){
+          layout-macro (Listinfomany){
+            param(info){
+              expression (item)
+            }
+          }
+        }
+      }
+    }
+    
+  }
+    
+  }

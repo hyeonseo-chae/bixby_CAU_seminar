@@ -1,0 +1,11 @@
+structure (Result_haksik) {
+  description (__DESCRIPTION__)
+   property(isEmpty){
+    type(IsEmpty)
+    min(Optional) max(One)
+  }
+  property(list){
+    type(Listmeal)
+    min(Optional) max(Many)
+  }
+}
