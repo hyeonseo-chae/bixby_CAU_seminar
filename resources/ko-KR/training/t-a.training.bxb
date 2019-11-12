@@ -1,0 +1,5 @@
+train (t-a9du1m7gi9qtsrcu05y5260dn) {
+  utterance ("[g:http_call] (학식)[v:mealvoca:mealvoca] 찾아줘")
+  plan (Y2Bm4CnLLNNLzi9K1QvJL2BQB/GSElPi84viczOLizPz0uOTEwuKS3NS4zNT9DJKSgqA/JwcBjX8CnNTE3PK8pMTGZgYGIGYAUgyMoAAlA8A)
+  last-modified (1573557572631)
+}

@@ -1,5 +1,5 @@
 capsule {
-  id (cau_sh.cau_haksik)
+  id ()
   version (0.1.0)
   format (3)
   targets {

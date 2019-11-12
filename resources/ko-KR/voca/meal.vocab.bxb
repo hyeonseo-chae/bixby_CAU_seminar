@@ -1,0 +1,24 @@
+vocab(mealvoca){
+ "mealvoca"{
+
+    "학식"
+    "밥"
+    "급식"
+ }
+
+ "breakfast"{
+   "아침"
+   "조식"
+ }
+
+ "lunch"{
+   "점심"
+   "중식"
+ }
+
+ "dinner"{
+   "저녁"
+   "석식"
+ }
+ 
+}

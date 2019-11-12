@@ -1,0 +1,9 @@
+enum (mealvoca){
+   features{
+  transient
+  }
+  symbol (breakfast)
+  symbol (lunch)
+  symbol (dinner)
+  symbol (mealvoca)
+}

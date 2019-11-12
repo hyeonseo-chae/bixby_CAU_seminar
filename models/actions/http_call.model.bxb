@@ -1,8 +1,11 @@
 action (http_call) {
   description (__DESCRIPTION__)
   collect {
-    
+    input (mealvoca) {
+      type (mealvoca)
+      min (Optional) max (One)
+    }
   }
   type (Constructor)
-  output (Result_haksik)
+  output (_______)
 }
